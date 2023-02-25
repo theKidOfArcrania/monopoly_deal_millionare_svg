@@ -16,7 +16,7 @@
    id="svg8"
    style="enable-background:new"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
-   sodipodi:docname="card_temp3.svg"
+   sodipodi:docname="action_rent_mo.svg"
    inkscape:export-filename="/home/henry/card3.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
@@ -712,16 +712,6 @@
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter880-8">
-      <feBlend
-         inkscape:collect="always"
-         mode="hue"
-         in2="BackgroundImage"
-         id="feBlend882-8" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
        id="filter880-0">
       <feBlend
          inkscape:collect="always"
@@ -1043,11 +1033,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.3758788"
+     inkscape:zoom="2.2739434"
      inkscape:cx="72.013121"
      inkscape:cy="200.06617"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer9"
+     inkscape:current-layer="layer7"
      showgrid="false"
      units="cm"
      inkscape:measure-start="-68.9429,276.832"
@@ -1112,12 +1102,6 @@
        d="M 5.2910156,0 C 2.3596134,0 0,2.35961 0,5.29101 v 2.14453 c 0,2.93141 2.3596134,5.29297 5.2910156,5.29297 h 1.3046875 c 2.8714164,0 5.1893279,-2.26746 5.2832029,-5.11523 h -0.07031 c -3.3606428,0 -6.0664065,-2.70576 -6.0664065,-6.06641 V 0 Z"
        id="rect16373-7-4"
        transform="matrix(0,0.26458333,-0.26458333,0,-18.537493,-3.1046899)" />
-    <path
-       inkscape:connector-curvature="0"
-       style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.06961;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;filter:url(#filter880-8);enable-background:new"
-       d="m 1.7234376,0.65683597 0.013672,0.1035156 -0.73828123,0.78515633 -0.2109375,0.033203 v 5.6249995 c 0.088445,0.0073 0.1759773,0.01853 0.26562503,0.02149 v -0.07031 c 0,-3.360642 2.7057565,-6.0664059 6.0664065,-6.0664059 h 1.546875 V 0.65683597 Z"
-       id="rect16373"
-       transform="matrix(0.26458333,0,0,0.26458333,-0.49009938,85.916839)" />
     <path
        inkscape:connector-curvature="0"
        style="display:inline;opacity:1;fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.06961;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;filter:url(#filter880);enable-background:new"

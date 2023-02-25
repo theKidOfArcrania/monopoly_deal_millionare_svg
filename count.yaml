@@ -16,11 +16,13 @@ action:
   dealBreaker: 2
 
   justSayNo: 3
+  urFired: 1
 cash:
-  50k: 16
-  100k: 16
+  50k: 15
+  100k: 14
   200k: 2
   500k: 1
+colorProp: 2
 prop:
   "2": 1
   n: 1

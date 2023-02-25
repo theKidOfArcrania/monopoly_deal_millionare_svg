@@ -15,6 +15,8 @@ templ = '''
 
 \\begin{document}
 
+\\centering
+
 $BODY
 
 \\end{document}
