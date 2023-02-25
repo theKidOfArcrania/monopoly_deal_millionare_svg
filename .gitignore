@@ -2,3 +2,7 @@
 /export
 *.png
 *.sw?
+*.log
+*.aux
+*.pdf
+export.tex

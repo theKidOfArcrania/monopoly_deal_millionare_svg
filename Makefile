@@ -20,7 +20,7 @@ PROP_1 = python3 $^ $* $@.tmp && mv $@.tmp $@
 
 .PHONY: all clean realclean
 
-all: $(PNGS)
+all: export.pdf
 
 genprops: $(PROPS)
 
@@ -55,3 +55,9 @@ export/%.png: cards/%.svg export/
 
 export/%.png: props/%.svg export/
 	$(EXPORT)
+
+export.tex: scripts/export.py count.yaml export $(PNGS)
+	python3 $< count.yaml export $@
+
+%.pdf: %.tex
+	pdflatex $<

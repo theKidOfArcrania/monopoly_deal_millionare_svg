@@ -1,0 +1,29 @@
+action:
+  rent: 2
+  colorRent: 3
+  gRent: 2
+  double: 2
+
+  flyOn: 2
+  go: 6
+
+  debtCollector: 4
+  birthday: 4
+
+  # Note that MDM only has 2 of each actually
+  forcedDeal: 3
+  slyDeal: 3
+  dealBreaker: 2
+
+  justSayNo: 3
+cash:
+  50k: 16
+  100k: 16
+  200k: 5
+  500k: 1
+prop:
+  "2": 1
+  n: 1
+  g: 1
+  w: 2
+  w2: 1
