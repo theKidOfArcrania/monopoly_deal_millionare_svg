@@ -1,0 +1,153 @@
+br:
+  names:
+  - BROWN 1
+  - BROWN 2
+  vars:
+    V: 50
+    R1: 50
+    R2: 100
+  replace:
+    731337: "784421"
+lb:
+  names:
+  - LIGHT BLUE 1
+  - LIGHT BLUE 2
+  - LIGHT BLUE 3
+  vars:
+    V: 50
+    R1: 50
+    R2: 100
+    R3: 150
+  replace:
+    731337: "80e5ff"
+m:
+  names:
+  - MEGENTA 1
+  - MEGENTA 2
+  - MEGENTA 3
+  vars:
+    V: 100
+    R1: 100
+    R2: 150
+    R3: 200
+  replace:
+    731337: "ff00ff"
+o:
+  names:
+  - ORANGE 1
+  - ORANGE 2
+  - ORANGE 3
+  vars:
+    V: 100
+    R1: 100
+    R2: 150
+    R3: 200
+  replace:
+    731337: "ff6600"
+r:
+  names:
+  - RED 1
+  - RED 2
+  - RED 3
+  vars:
+    V: 150
+    R1: 150
+    R2: 200
+    R3: 250
+  replace:
+    731337: "ff0000"
+y:
+  names:
+  - YELLOW 1
+  - YELLOW 2
+  - YELLOW 3
+  vars:
+    V: 150
+    R1: 150
+    R2: 200
+    R3: 250
+  replace:
+    731337: "ffff00"
+g:
+  names:
+  - GREEN 1
+  - GREEN 2
+  - GREEN 3
+  vars:
+    V: 200
+    R1: 200
+    R2: 250
+    R3: 300
+  replace:
+    731337: "00aa44"
+b:
+  names:
+  - BLUE 1
+  - BLUE 2
+  vars:
+    V: 200
+    R1: 200
+    R2: 300
+  replace:
+    731337: "000080"
+go:
+  names:
+  - GOLD 1
+  - GOLD 2
+  - GOLD 3
+bb:
+  names:
+  - PROPERTY WILD CARD
+  vars:
+    V: 50
+    RR1: 50
+    RR2: 100
+    R1: 50
+    R2: 100
+    R3: 150
+  replace:
+    731337: "80e5ff" # light blue
+    131337: "000000"
+    6468ff: "784421" # brown
+    2428ff: "ffffff"
+mo:
+  names:
+  - PROPERTY WILD CARD
+  vars:
+    V: 100
+    R1: 100
+    R2: 150
+    R3: 200
+  replace:
+    731337: "ff00ff" # megenta
+    131337: "000000"
+    6468ff: "ff6600" # orange
+    2428ff: "000000"
+ry:
+  names:
+  - PROPERTY WILD CARD
+  vars:
+    V: 150
+    R1: 150
+    R2: 200
+    R3: 250
+  replace:
+    731337: "ff0000" # red
+    131337: "000000"
+    6468ff: "ffff00" # yellow
+    2428ff: "000000"
+gb:
+  names:
+  - PROPERTY WILD CARD
+  vars:
+    V: 200
+    RR1: 200
+    RR2: 300
+    R1: 200
+    R2: 250
+    R3: 300
+  replace:
+    731337: "00aa44" # green
+    131337: "ffffff"
+    6468ff: "000080" # blue
+    2428ff: "ffffff"

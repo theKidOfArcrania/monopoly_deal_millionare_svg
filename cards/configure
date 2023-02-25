@@ -1,0 +1,36 @@
+#!/bin/bash
+
+set -e
+
+cd "$( dirname "${BASH_SOURCE[0]}" )"
+
+EXPORT_DIR=../export 
+
+exec 3> Makefile
+
+EXPORT_LIST=
+for file in *.svg; do
+  EXPORT="$EXPORT_DIR/$file"
+  EXPORT_LIST="${EXPORT_LIST} ${EXPORT:0:${#EXPORT}-4}.png"
+done
+
+cat >&3 <<EOF
+PNGS = ${EXPORT_LIST}
+V ?= 0
+EXPORT = \$(EXPORT_\$(V))
+EXPORT_0 = @echo "  EXPORT \$<  "; inkscape -C -d 300 -e \$@ \$< > /dev/null 2> /dev/null
+EXPORT_1 = inkscape -C -d 300 -e \$@ \$<
+
+.PHONY: all clean realclean
+
+all: \$(PNGS)
+
+clean:
+	rm -rf \$(PNGS)
+
+realclean: clean
+	rm Makefile
+
+../export/%.png: %.svg
+	\$(EXPORT)
+EOF
