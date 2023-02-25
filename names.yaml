@@ -1,7 +1,7 @@
 br:
   names:
-  - BROWN 1
-  - BROWN 2
+  - CONWAY COAST
+  - CARNIVAL CITY
   vars:
     V: 50
     R1: 50
@@ -10,9 +10,9 @@ br:
     731337: "784421"
 lb:
   names:
-  - LIGHT BLUE 1
-  - LIGHT BLUE 2
-  - LIGHT BLUE 3
+  - AQUA LAND
+  - ANALINE ACROPOLIS
+  - HAPPY HARBOR
   vars:
     V: 50
     R1: 50
@@ -20,11 +20,12 @@ lb:
     R3: 150
   replace:
     731337: "80e5ff"
+    "17.3333px": "15px"
 m:
   names:
-  - MEGENTA 1
-  - MEGENTA 2
-  - MEGENTA 3
+  - PINE ALPS
+  - SUNSHINE BEACH
+  - MARIAN MARINA
   vars:
     V: 100
     R1: 100
@@ -34,9 +35,9 @@ m:
     731337: "ff00ff"
 o:
   names:
-  - ORANGE 1
-  - ORANGE 2
-  - ORANGE 3
+  - PETROS FALLS
+  - DELUSIONAL BOULEVARD
+  - BRIGHTLY GARDENS
   vars:
     V: 100
     R1: 100
@@ -46,9 +47,9 @@ o:
     731337: "ff6600"
 r:
   names:
-  - RED 1
-  - RED 2
-  - RED 3
+  - APPARATUS BERTH
+  - DOG ISLAND
+  - PARK PLAZA
   vars:
     V: 150
     R1: 150
@@ -58,9 +59,9 @@ r:
     731337: "ff0000"
 y:
   names:
-  - YELLOW 1
-  - YELLOW 2
-  - YELLOW 3
+  - RAINFOREST RESORT
+  - SAPHIRE BAY
+  - CRYPTO HAVEN
   vars:
     V: 150
     R1: 150
@@ -70,9 +71,9 @@ y:
     731337: "ffff00"
 g:
   names:
-  - GREEN 1
-  - GREEN 2
-  - GREEN 3
+  - EMERALD PALACE
+  - GEM COUNTRY
+  - JEWLERY COAST
   vars:
     V: 200
     R1: 200
@@ -82,8 +83,8 @@ g:
     731337: "00aa44"
 b:
   names:
-  - BLUE 1
-  - BLUE 2
+  - PARADISE ALCOVE
+  - AFFLUENCE BASIN
   vars:
     V: 200
     R1: 200
@@ -92,12 +93,12 @@ b:
     731337: "000080"
 go:
   names:
-  - GOLD 1
-  - GOLD 2
-  - GOLD 3
+  - GOLDEN COVE
+  - CRYSTAL ISLAND
+  - DIAMOND VALLEY
 bb:
   names:
-  - PROPERTY WILD CARD
+  - PROPERTY WILDCARD
   vars:
     V: 50
     RR1: 50
@@ -112,7 +113,7 @@ bb:
     2428ff: "ffffff"
 mo:
   names:
-  - PROPERTY WILD CARD
+  - PROPERTY WILDCARD
   vars:
     V: 100
     R1: 100
@@ -125,7 +126,7 @@ mo:
     2428ff: "000000"
 ry:
   names:
-  - PROPERTY WILD CARD
+  - PROPERTY WILDCARD
   vars:
     V: 150
     R1: 150
@@ -138,7 +139,7 @@ ry:
     2428ff: "000000"
 gb:
   names:
-  - PROPERTY WILD CARD
+  - PROPERTY WILDCARD
   vars:
     V: 200
     RR1: 200

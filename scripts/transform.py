@@ -19,7 +19,9 @@ def main():
     data = data[fmt]
     repls = dict(data.get('replace', {}))
     vars = dict(data.get('vars', {}))
-    vars['NAME'] = data['names'][num]
+    n1, n2 = data['names'][num].split(' ')
+    vars['NAME'] = n1
+    vars['NAME2'] = n2
 
     with open(sys.argv[2], 'r') as templ:
         with open(sys.argv[4], 'w') as out:
