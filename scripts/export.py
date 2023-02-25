@@ -6,12 +6,12 @@ import os
 templ = '''
 \\documentclass[12pt]{scrartcl}
 \\usepackage{graphicx}
-\\usepackage[a4paper, margin=.5in]{geometry}
+\\usepackage[a4paper, margin=.3in]{geometry}
 
 \\graphicspath{ {$EXPORT_PATH} }
 
 \\setlength{\\parindent}{0pt}
-\\setlength{\\parskip}{10pt}
+\\setlength{\\parskip}{5pt}
 
 \\begin{document}
 

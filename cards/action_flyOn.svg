@@ -9,9 +9,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="5.5cm"
-   height="8.5cm"
-   viewBox="0 0 55 84.999995"
+   width="6.0cm"
+   height="9.0cm"
+   viewBox="-2.5 -2 60 90"
    version="1.1"
    id="svg8"
    style="enable-background:new"
@@ -973,7 +973,7 @@
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#ffffff"
+     pagecolor="#000000"
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageopacity="1"

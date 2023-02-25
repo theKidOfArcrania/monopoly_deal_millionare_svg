@@ -11,7 +11,7 @@ PROPS = $(PROPS_NORM:%=props/prop_n_%.svg) $(PROPS_GOLD:%=props/prop_g_%.svg) \
 PNGS = $(SVGS:cards/%.svg=export/%.png) $(PROPS:props/%.svg=export/%.png)
 V ?= 0
 EXPORT = $(EXPORT_$(V))
-EXPORT_0 = @echo "  EXPORT $<  "; inkscape -C -d 300 --export-png=$@ $< > /dev/null 2> /dev/null
+EXPORT_0 = @echo "  EXPORT $<  "; inkscape -C -d 900 --export-png=$@ $< > /dev/null 2> /dev/null
 EXPORT_1 = inkscape -C -d 300 --export-png=$@ $<
 
 PROP = $(PROP_$(V))
