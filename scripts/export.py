@@ -29,9 +29,11 @@ class DocGen:
 
     def add_img(self, base):
         self.__cnt += 1
-        self.__lines.append(f'\\includegraphics{{{base}}} $\\:\\:$')
+        self.__lines.append(f'\\includegraphics{{{base}}}')
         if self.__cnt % 3 == 0:
             self.__lines.append('')
+        else:
+            self.__lines.append('$\\:\\:$')
 
     def generate(self, export_path):
         return templ.replace('$EXPORT_PATH', export_path) \
