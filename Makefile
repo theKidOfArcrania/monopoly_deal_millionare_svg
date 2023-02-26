@@ -18,9 +18,11 @@ PROP = $(PROP_$(V))
 PROP_0 = @echo "  PROP $@  "; python3 $^ $* $@.tmp && mv $@.tmp $@
 PROP_1 = python3 $^ $* $@.tmp && mv $@.tmp $@
 
-.PHONY: all clean realclean
+.PHONY: all clean realclean genprops deck
 
 all: export.pdf
+
+deck: $(PNGS) cardset/.done
 
 genprops: $(PROPS)
 
@@ -32,6 +34,10 @@ realclean: clean
 
 %/:
 	mkdir $@
+
+cardset/.done: scripts/deck.py cardset/ $(PNGS)
+	python3 $< count.yaml export/ cardset/
+	touch $@
 
 .PRECIOUS: $(PROPS)
 props/prop_n_%.svg: scripts/transform.py names.yaml templs/card_temp_prop.svg

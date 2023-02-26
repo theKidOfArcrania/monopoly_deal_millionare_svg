@@ -1,5 +1,6 @@
 /props
 /export
+/cardset
 *.png
 *.sw?
 *.log
