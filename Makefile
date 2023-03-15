@@ -1,3 +1,4 @@
+DPI ?= 300
 SVGS = $(shell ls cards/*.svg)
 PROPS_NORM = lb_1 lb_2 lb_3 m_1 m_2 m_3 o_1 o_2 o_3 r_1 r_2 r_3 \
 				y_1 y_2 y_3 g_1 g_2 g_3
@@ -12,7 +13,7 @@ PNGS = $(SVGS:cards/%.svg=export/%.png) $(PROPS:props/%.svg=export/%.png)
 V ?= 0
 EXPORT = $(EXPORT_$(V))
 EXPORT_0 = @echo "  EXPORT $<  "; inkscape -C -d 900 --export-png=$@ $< > /dev/null 2> /dev/null
-EXPORT_1 = inkscape -C -d 300 --export-png=$@ $<
+EXPORT_1 = inkscape -C -d $(DPI) --export-png=$@ $<
 
 PROP = $(PROP_$(V))
 PROP_0 = @echo "  PROP $@  "; python3 $^ $* $@.tmp && mv $@.tmp $@
