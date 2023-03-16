@@ -63,7 +63,10 @@ export/%.png: cards/%.svg export/
 export/%.png: props/%.svg export/
 	$(EXPORT)
 
-export.tex: scripts/export.py count.yaml export $(PNGS)
+cards.csv: scripts/export_pc.py count.yaml export/ $(PNGS)
+	python3 $< count.yaml export $@
+
+export.tex: scripts/export.py count.yaml export/ $(PNGS)
 	python3 $< count.yaml export $@
 
 %.pdf: %.tex

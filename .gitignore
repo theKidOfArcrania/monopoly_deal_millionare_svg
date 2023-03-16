@@ -7,3 +7,4 @@
 *.aux
 *.pdf
 export.tex
+*.csv
