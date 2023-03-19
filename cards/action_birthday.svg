@@ -987,9 +987,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3736189"
-     inkscape:cx="-72.85695"
-     inkscape:cy="284.7212"
+     inkscape:zoom="4.6938354"
+     inkscape:cx="97.099383"
+     inkscape:cy="265.67536"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -2254,7 +2254,7 @@
      style="display:inline">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:'Kabel Demi';-inkscape-font-specification:'Kabel Demi';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Kabel Demi';-inkscape-font-specification:'Kabel Demi';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="15.094768"
        y="21.738249"
        id="text5119"><tspan
@@ -2262,11 +2262,11 @@
          id="tspan5117"
          x="15.094768"
          y="21.738249"
-         style="font-size:3.17499995px;stroke-width:0.26458332">ACTION CARD</tspan></text>
+         style="font-size:3.175px;stroke-width:0.264583">ACTION CARD</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot9928"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:'Kabel Demi';-inkscape-font-specification:'Kabel Demi';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:'Kabel Demi';-inkscape-font-specification:'Kabel Demi';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        transform="scale(0.26458333)"><flowRegion
          id="flowRegion9930"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Kabel Demi';-inkscape-font-specification:'Kabel Demi'"><rect
@@ -2279,7 +2279,7 @@
          id="flowPara9934" /></flowRoot>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;line-height:1.25;font-family:'Kabel Demi';-inkscape-font-specification:'Kabel Demi';letter-spacing:-0.21166667px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.949657;paint-order:markers stroke fill"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;line-height:1.25;font-family:'Kabel Demi';-inkscape-font-specification:'Kabel Demi';letter-spacing:-0.211667px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.949657;paint-order:markers stroke fill"
        x="27.346189"
        y="35.390621"
        id="text9938"><tspan
@@ -2287,11 +2287,11 @@
          id="tspan9936"
          x="27.346189"
          y="35.390621"
-         style="font-size:4.58611px;text-align:center;text-anchor:middle;stroke:#ffffff;stroke-width:0.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.949657;paint-order:markers stroke fill;">IT'S MY </tspan><tspan
+         style="font-size:4.58611px;text-align:center;text-anchor:middle;stroke:#ffffff;stroke-width:0.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.949657;paint-order:markers stroke fill">IT'S MY </tspan><tspan
          sodipodi:role="line"
-         x="27.346189"
+         x="27.240356"
          y="41.12326"
-         style="font-size:4.58611px;text-align:center;text-anchor:middle;stroke:#ffffff;stroke-width:0.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.949657;paint-order:markers stroke fill;"
+         style="font-size:4.58611px;text-align:center;text-anchor:middle;stroke:#ffffff;stroke-width:0.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.949657;paint-order:markers stroke fill"
          id="tspan9940">BIRTHDAY</tspan></text>
     <text
        xml:space="preserve"
@@ -2339,7 +2339,7 @@
            y="231.08791"
            style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
          id="flowPara16881"
-         style="font-size:8.66667px;letter-spacing:-0.5px">ALL players give you ¤100k as a &quot;gift&quot;.</flowPara><flowPara
+         style="font-size:8.66667px;letter-spacing:-0.5px">ALL players give you ¤50k as a &quot;gift&quot;.</flowPara><flowPara
          style="font-size:6.66667px;letter-spacing:-0.5px"
          id="flowPara16883">Play on play pile to use.</flowPara></flowRoot>
   </g>
